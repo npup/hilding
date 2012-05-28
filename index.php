@@ -23,7 +23,7 @@ nya texten
 </p>
 
 
-Här är min pappas sida: <a href="index.html"> PAPPA </a>
+Här är min pappas sida: <a href="/index.html"> PAPPA </a>
 
 </body>
 </html>
