@@ -1,0 +1,41 @@
+.accordeon {
+	font-family: Verdana;
+}
+
+.accordeon .accordeon-caption.expanded
+, .accordeon .accordeon-content {
+	font-style: italic;
+}
+	
+/* Base styles */
+ul {
+	list-style-type: none;
+}
+h3 {
+	margin: 0;
+}
+
+/* Basic widget styling */
+.accordeon {
+	width: 20em;
+	border: 4px solid #a8a;
+	padding: 10px;
+}
+.accordeon-caption {
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #eee;
+}
+
+.accordeon-caption.expanded {
+	background-color: #999;
+}
+
+#hilding .accordeon-caption.expanded {
+	background-color: #ffc;
+}
+.accordeon-content {
+	margin-left: 0;
+	margin-bottom: 2px;
+	padding: 5px;
+}
