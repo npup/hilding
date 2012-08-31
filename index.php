@@ -49,9 +49,11 @@ nya texten
 
 <script type="text/javascript">
   
-  npup.accordeon.create("hilding", {"allowMultiple": false});
+npup.accordeon && npup.accordeon.create("hilding", {"allowMultiple": false, "defaultExpandedIdx": 1});
   
 </script>
+
+
 
 </body>
 </html>
